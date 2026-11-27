@@ -235,7 +235,11 @@ public String deleteDeparment(@PathVariable String id) {
 Observa el endpoint `addProductoCategoria/{productId}/{categoriaId}`, analiza el código y responde:
 
 - ¿Cuál crees que es su función?
+Buscar y agregar productos
+
 - ¿Por qué se declaran dos repositorios: uno de tipo `categoriaRepo` y otro de tipo `productoRepo`?
+son las interfaces a las que se dirige para buscar los productos seleccionados.
+
 
 ## Endpoints del ejercicio
 
